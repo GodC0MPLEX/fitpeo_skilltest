@@ -1,0 +1,45 @@
+.tag{
+    display: flex;
+    /* gap:10px; */
+    justify-content: space-between;
+    cursor: pointer;
+}
+.tag img{
+    height:24px;
+    width: 24px;
+}
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 90vh;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.iconTag{
+display: flex;
+gap:10px;
+}
+.dash{
+    display: flex;
+    justify-content: left;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.dash_main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+@media screen and (max-width: 960px) {
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+        /* gap: 30px; */
+        height: 90vh;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+  }
